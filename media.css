@@ -234,7 +234,13 @@ nav button{
     }
     .oltinci0 h1{
         width: 200%;
-        transform: translateX(-30%);
+        transform: translateX(-30%)
     }
+}
+
+@media screen and (max-width:428px){
+.oltinci0 h1{
+    transform: translateX(-50%);
+}
 }
 
