@@ -141,6 +141,14 @@ nav button{
     /* top: 1; */
     margin-top: 90px;
 }
+.carousel{
+    width: 200%;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.carousel_item{
+    width: 800%;
+}
 }
 @media screen and (max-width:783px){
     nav{
@@ -362,11 +370,18 @@ nav button{
 }
 .sakkizinci0 b{
     transform: translateX(-20%) translateY(-230%);
-    /* display: none; */
 }
-.sakkizinci0 p{
-    /* display: none; */
+.carousel_item{
+    width: 800%;
 }
+.carouse{
+    width: 800%;
+    margin-left:300%;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 }

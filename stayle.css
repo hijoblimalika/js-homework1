@@ -259,3 +259,25 @@ color: #52503B;
     color: #52503B;
 
 }
+.carousel{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+  overflow-x: auto;
+  margin-top: 2%;
+  
+  }
+.carousel_item{
+    min-width: 800px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+}
+.carousel::-webkit-scrollbar{
+    height: 6px;
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 6px;
+}
