@@ -6,6 +6,9 @@
     .collection{
         width: 500px;
     }
+    .yettinci0{
+        display: none;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -98,6 +101,46 @@ nav button{
     width: 320%;
     font-size: 25px;
 }
+.ll{
+  width: 100px;
+  height: 4vh;  
+  margin-top: 20%;
+  margin-left: 25%;
+}
+.yettinci0 h1{
+    font-size: 60px;
+    margin-left: 25%;
+}
+.yettinci0 p{
+    width: 80%;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.kontainer1{
+    display: none;
+}
+.kontainer2{
+    display: none;
+}
+.yettinci0{
+    display: none;
+}
+.sakkizinci0 b{
+    width: 100%;
+    /* transform: translateY(-500px); */
+    font-size: 60px;
+    position: absolute;
+    left: 70%;
+}
+.sakkizinci0 p{
+    font-size: 30px;
+    width: 50%;
+    position: absolute;
+    left: 70%;
+    /* top: 1; */
+    margin-top: 90px;
+}
 }
 @media screen and (max-width:783px){
     nav{
@@ -138,7 +181,16 @@ nav button{
     .oltinci0 p{
         margin-left: 120%;
     }
- 
+    .kontainer1{
+        display: none;
+    }
+    .kontainer2{
+        display: none;
+    }
+    .yettinci0{
+        display: none;
+    }
+   
   
 }
 @media screen and (max-width:703px){
@@ -148,7 +200,16 @@ nav button{
         margin-left: 95%;
         margin-top: 120%;
         font-size: 120px;
-    }      
+    }   
+    .kontainer1{
+        display: none;
+    }
+    .kontainer2{
+        display: none;
+    } 
+    .yettinci0{
+        display: none;
+    }  
 }
 @media screen and (max-width:638px){
     nav img{
@@ -196,6 +257,15 @@ nav button{
         /* margin-left: 10%; */
         transform: translateX(100%);
     }
+    .kontainer1{
+        display: none;
+    }
+    .kontainer2{
+        display: none;
+    }
+    .yettinci0{
+        display: none;
+    }
 }
 @media screen and (max-width:512px){
     nav img{
@@ -236,6 +306,26 @@ nav button{
         width: 200%;
         transform: translateX(-30%)
     }
+    .kontainer1{
+        display: none;
+    }
+    .kontainer2{
+        display: none;
+    }
+    .yettinci0{
+        display: none;
+    }
+    .sakkizinci0 b{
+        width: 200%;
+        font-size: 150px;
+        transform: translateY(-400px)translateX(-80px);
+    }
+    .sakkizinci0 p{
+        width: 300%;
+        font-size: 80px;
+        transform: translateY(-80%) translateX(-25%);
+    }
+
 }
 
 @media screen and (max-width:428px){
@@ -259,9 +349,34 @@ nav button{
 }
 .torinci h1{
     width: 200%;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
+}
+.kontainer1{
+    display: none;
+}
+.kontainer2{
+    display: none;
+}
+.yettinci0{
+    display: none;
+}
+.sakkizinci0 b{
+    transform: translateX(-20%) translateY(-230%);
+    /* display: none; */
+}
+.sakkizinci0 p{
+    /* display: none; */
 }
 
 
 }
+@media screen and (max-width:411px){
+    .sakkizinci0 p{
+        display: none;
+    }  
+    .sakkizinci0 b{
+        display: none;
+    }  
+}
+
 
