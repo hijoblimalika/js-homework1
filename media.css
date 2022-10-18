@@ -241,6 +241,7 @@ nav button{
 @media screen and (max-width:428px){
 .oltinci0 h1{
     transform: translateX(-50%);
+    color: red;
 }
 }
 
