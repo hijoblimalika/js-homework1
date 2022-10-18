@@ -105,4 +105,55 @@ nav button{
     color:#52503B;
     margin-left: 15%;
 }
+.bewinci img{
+    margin-top: 5%;
+    width: 100%;
+}
+.oltinci0 h1{
+    margin-top: 8%;
+    margin-left: 40%;
+    color: #52503B;
+    font-weight: 100;
+}
+.oltinci0 p{
+    width: 45%;
+    color: #52503B;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-left: 30%;
 
+}
+.oltinci{
+    display: flex;
+    /* margin-left: 4%; */
+}
+.box{
+    width: 35%;
+    height: 40vh;
+    /* margin-left: 10%; */
+
+}
+.box img{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.oltinci_text b{
+    margin-left: 45%;
+    /* margin-top: 500px; */
+    color: #52503B;
+    font-weight: 100;
+}
+.oltinci_text p{
+    width: 80%;
+    font-size: 14px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: #52503B;
+
+}
+.hr{
+    height: 1vh;
+    border-radius: 50px;
+    background: #52503B;
+    display: none;
+}
