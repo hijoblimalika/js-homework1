@@ -149,6 +149,60 @@ nav button{
 .carousel_item{
     width: 800%;
 }
+.toqqiz img{
+    width: 250%;
+}
+.on1 h1{
+    width: 100%;
+    font-size: 60px;
+
+}
+.on1 p{
+    width: 100%;
+    font-size: 40px; 
+}
+.on2 img{
+    width: 1400px;
+    height: 800px;
+    margin-left: 550px;
+}
+.on2 img{
+    display: none;
+}
+.on1{
+    display: none;
+}
+.o11 h1{
+    width: 200%;
+    font-size: 100px;
+}
+.o11 p{
+    font-size: 60px;
+    width: 100%;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+.button1 button{
+    width: 250px;
+    height: 15vh;
+    margin-left: 390%;
+}
+.button2 button{
+    width: 250px;
+    height: 15vh;
+    margin-left: 400%;
+}
+.futr0{
+    width: 250%;
+}
+.futr4 {
+    width: 5000%;
+    height: 500vh;
+    display: none;
+}
+.futr3{
+    display: none;
+}
 }
 @media screen and (max-width:783px){
     nav{
@@ -197,6 +251,33 @@ nav button{
     }
     .yettinci0{
         display: none;
+    }
+    .toqqiz img{
+        width: 350%;
+    }
+    .on1 h1{
+        width: 500%;
+        font-size: 130px;
+        margin-left: 200%;
+    }
+    .on1 p{
+        width: 500%;
+        font-size: 80px;
+        margin-left: 100%;
+    }
+    .o11 h1{
+        margin-left: 80%;
+    }
+   
+    .o11 p{
+        width: 200%;
+        margin-left: 80%;
+    }
+    .button1 button{
+        font-size: 27px;
+    }
+    .button2 button{
+        font-size: 27px;
     }
    
   
@@ -333,7 +414,12 @@ nav button{
         font-size: 80px;
         transform: translateY(-80%) translateX(-25%);
     }
-
+    .button1 button{
+        transform: translateX(-170%);
+    }
+    .button2 button{
+        transform: translateX(-170%);
+    }
 }
 
 @media screen and (max-width:428px){
@@ -380,6 +466,15 @@ nav button{
     margin-top: 200px;
     align-items: center;
     justify-content: center;
+}
+.on1 h1{
+    transform: translateX(-20%);
+}
+.button1 button{
+    transform: translateX(-230%);
+}
+.button2 button{
+    transform: translateX(-230%);
 }
 
 
