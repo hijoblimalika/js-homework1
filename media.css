@@ -467,7 +467,7 @@ nav button{
 
 @media screen and (max-width:428px){
     nav{
-        width: 380%;
+        width: 400%;
     }
     .ikkinci_text_img img{
         width: 300px;
@@ -475,16 +475,16 @@ nav button{
         transform: translateX(-180%) translateY(-160%);
     }
     .katta img{
-        width: 380%;
+        width: 400%;
     }
     .bewinci img{
-        width: 380%;
+        width: 400%;
     }
     .toqqiz img{
-        width: 380%;
+        width: 400%;
     }
    .futr0{
-    width: 380%;
+    width: 400%;
    }
   
 .oltinci0 h1{
