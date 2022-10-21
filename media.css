@@ -194,15 +194,46 @@ nav button{
 }
 .futr0{
     width: 250%;
+    height: 555px;
 }
 .futr4 {
     width: 5000%;
     height: 500vh;
-    display: none;
 }
 .futr3{
+    transform: translateX(1000px);
+}
+.futr3 p{
+    font-size: 30px;
+    width: 120%;
+}
+.inp input{
+    font-size: 30px;
+}
+.inp button{
+    transform: translateX(-50px);
+    width: 100px;
+    font-size: 20px;
+}
+.futr2{
+    transform: translateX(500px);
+}
+.futr2 p{
+    width: 150%;
+    font-size: 30px;
+}
+.futr2 i{
+    width: 855%;
+    font-size: 50px;
+}
+.li_futr_item{
+    font-size: 30px;
+    transform: translateX(200px);
+}
+.futr4 img{
     display: none;
 }
+
 }
 @media screen and (max-width:783px){
     nav{
@@ -278,6 +309,9 @@ nav button{
     }
     .button2 button{
         font-size: 27px;
+    }
+    .futr0{
+        width: 350%;
     }
    
   
@@ -420,14 +454,38 @@ nav button{
     .button2 button{
         transform: translateX(-170%);
     }
+    .futr0{
+        width: 350%;
+    }
+    .futr3{
+        display: none;
+    }
+    .futr4{
+        display: block;
+    }
 }
 
 @media screen and (max-width:428px){
+    nav{
+        width: 400%;
+    }
     .ikkinci_text_img img{
         width: 300px;
         height: 15vh;
         transform: translateX(-180%) translateY(-160%);
     }
+    .katta img{
+        width: 400%;
+    }
+    .bewinci img{
+        width: 400%;
+    }
+    .toqqiz img{
+        width: 400%;
+    }
+   .futr0{
+    width: 400%;
+   }
   
 .oltinci0 h1{
     transform: translateX(-50%);
@@ -471,10 +529,27 @@ nav button{
     transform: translateX(-20%);
 }
 .button1 button{
+    width: 300px;
+    height: 120px;
     transform: translateX(-230%);
+    font-size: 40px;
 }
 .button2 button{
-    transform: translateX(-230%);
+    width: 300px;
+    height: 120px;
+    transform: translateX(-210%);
+    font-size: 40px;
+
+}
+.inp input{
+    display: block;
+}
+.o11 h1{
+    width: 300%;
+    transform: translateX(-10%);
+}
+.o11 p{
+    width: 250%;
 }
 
 
